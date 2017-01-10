@@ -53,6 +53,10 @@ image,
 devicecolor,
 price,
 product_details);
+this.processor=processor;
+this.internalmemory=internalmemory;
+this.screensize=screensize;
+this.ram=ram;
     }
 }
 export class TV extends Add{
@@ -70,11 +74,14 @@ image,
 devicecolor,
 price,
 product_details);
-    }
+this.resolution=resolution;
+this.quality=quality;
+this.screentype=screentype;    
+}
     
 }
 
-export class Watch extends Add{
+export class Wears extends Add{
     resolution:string;
     storage:string;
     ram:string;
@@ -91,6 +98,10 @@ image,
 devicecolor,
 price,
 product_details);
+this.resolution=resolution;
+this.storage=storage;
+this.ram=ram;
+this.screensize=screensize;
     }
     
 }
