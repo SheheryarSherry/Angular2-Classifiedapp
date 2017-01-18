@@ -10,6 +10,7 @@ import { TabletsComponent } from './tablets/tablets.component';
 import { TvComponent } from './tv/tv.component';
 import { WatchesComponent } from './watches/watches.component';
 import { AddPhonesComponent } from './add-phones/add-phones.component';
+import { AddTabletsComponent } from './add-tablets/add-tablets.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AddPhonesComponent } from './add-phones/add-phones.component';
     TabletsComponent,
     TvComponent,
     WatchesComponent,
-    AddPhonesComponent
+    AddPhonesComponent,
+    AddTabletsComponent
   ],
   imports: [
     BrowserModule,
