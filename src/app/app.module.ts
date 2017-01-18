@@ -11,6 +11,7 @@ import { TvComponent } from './tv/tv.component';
 import { WatchesComponent } from './watches/watches.component';
 import { AddPhonesComponent } from './add-phones/add-phones.component';
 import { AddTabletsComponent } from './add-tablets/add-tablets.component';
+import { AddTvComponent } from './add-tv/add-tv.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AddTabletsComponent } from './add-tablets/add-tablets.component';
     TvComponent,
     WatchesComponent,
     AddPhonesComponent,
-    AddTabletsComponent
+    AddTabletsComponent,
+    AddTvComponent
   ],
   imports: [
     BrowserModule,
