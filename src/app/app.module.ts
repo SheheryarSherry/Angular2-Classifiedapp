@@ -9,6 +9,7 @@ import { PhonesComponent } from './phones/phones.component';
 import { TabletsComponent } from './tablets/tablets.component';
 import { TvComponent } from './tv/tv.component';
 import { WatchesComponent } from './watches/watches.component';
+import { AddPhonesComponent } from './add-phones/add-phones.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { WatchesComponent } from './watches/watches.component';
     PhonesComponent,
     TabletsComponent,
     TvComponent,
-    WatchesComponent
+    WatchesComponent,
+    AddPhonesComponent
   ],
   imports: [
     BrowserModule,
