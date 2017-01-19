@@ -41,7 +41,13 @@ export class tablets extends Add{
     internalmemory:string;
     screensize:number;
     ram:number;
-    constructor(model:string,brand:string,image:string,devicecolor:string,price:number,product_details:string,
+    constructor(
+        model:string,
+        brand:string,
+        image:string,
+        devicecolor:string,
+        price:number,
+        product_details:string,
     processor:string,
     internalmemory:string,
     screensize:number,
@@ -63,7 +69,12 @@ export class TV extends Add{
     resolution:string;
     quality:string;
     screentype:string;
-    constructor(model:string,brand:string,image:string,devicecolor:string,price:number,product_details:string,
+    constructor(model:string,
+    brand:string,
+    image:string,
+    devicecolor:string,
+    price:number,
+    product_details:string,
     resolution:string,
     quality:string,
     screentype:string
