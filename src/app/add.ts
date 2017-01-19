@@ -97,7 +97,12 @@ export class Wears extends Add{
     storage:string;
     ram:string;
     screensize:string;
-    constructor(model:string,brand:string,image:string,devicecolor:string,price:number,product_details:string,
+    constructor(model:string,
+    brand:string,
+    image:string,
+    devicecolor:string,
+    price:number,
+    product_details:string,
     resolution:string,
     storage:string,
     screensize:string,
