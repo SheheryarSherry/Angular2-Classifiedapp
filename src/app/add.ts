@@ -28,7 +28,7 @@ export class Phones extends Add{
     price:number,
     product_details:string,
     screen:string,
-    ram:number,
+    ram:string,
     processor:string){
 super(model,brand,image,devicecolor,price,product_details);
 this.processor=processor;
