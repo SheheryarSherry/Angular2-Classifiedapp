@@ -47,6 +47,28 @@ new wears(
   ""
 )
 
-  ]
+  ];
+AddCart:Add[]=[];
+getPost(){
+  return this.post;
+}
+getCart(){
+  return this.AddCart;
+}
+PhoneAdd(){
 
+}
+tabletAdd(){
+
+}
+tvAdd(){
+
+}
+WearsAdd(){
+
+}
+
+cartAdd(){
+  this.AddCart.push(this.post[id]);
+}
 }
