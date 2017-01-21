@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {Add,Phones,Tablets,Tv,Watches} from "./Add"
+import {Add,Phones,tablets,TV,wears} from "./add"
 @Injectable()
 
 export class PostingService {
@@ -11,7 +11,7 @@ export class PostingService {
   "4 GB RAM",
   "Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)"
   ),
-  new Tablets(
+  new tablets(
     "",
     "",
     "",
@@ -20,9 +20,10 @@ export class PostingService {
     "",
     "",
     "",
+    "",
     ""
   ),
-new Tv(
+new TV(
   "",
   "",
   "",
@@ -33,7 +34,7 @@ new Tv(
   "",
   ""
 ),
-new Wears(
+new wears(
   "",
   "",
   "",
