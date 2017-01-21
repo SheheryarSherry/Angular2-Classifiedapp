@@ -17,7 +17,7 @@ export class Add {
 }
 export class Phones extends Add{
     screen:string;
-    ram:number;
+    ram:string;
     processor:string;
     
     constructor(
@@ -39,8 +39,8 @@ this.screen=screen;
 export class tablets extends Add{
     processor:string;
     internalmemory:string;
-    screensize:number;
-    ram:number;
+    screensize:string;
+    ram:string;
     constructor(
         model:string,
         brand:string,
@@ -50,8 +50,8 @@ export class tablets extends Add{
         product_details:string,
     processor:string,
     internalmemory:string,
-    screensize:number,
-    ram:number
+    screensize:string,
+    ram:string
     ){
         super(model,
 brand,
@@ -92,7 +92,7 @@ this.screentype=screentype;
     
 }
 
-export class Wears extends Add{
+export class wears extends Add{
     resolution:string;
     storage:string;
     ram:string;
