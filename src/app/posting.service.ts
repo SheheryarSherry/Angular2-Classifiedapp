@@ -67,17 +67,60 @@ processor,id
   ));
 
 }
-tabletAdd(){
+tabletAdd(model,
+brand,
+image,
+devicecolor,
+price,
+product_details,
+processor,
+internalmemory,
+screensize,
+ram,
+id){
+  this.post.push(new tablets(model.value,brand.value,
+  image.src,
+  devicecolor.value,price,product_details.value,processor.value,
+  internalmemory.value,screensize.value,ram.value,id));
+}
+tvAdd(model,
+brand,
+image,
+devicecolor,
+price,
+product_details,
+resolution,
+quality,
+screentype,id){
+  this.post.push(new TV(model.value,
+  brand.value,image.src,
+  devicecolor.value,price,product_details.value,resolution.value,quality.value,
+  screentype.value,
+  id));
 
 }
-tvAdd(){
-
-}
-WearsAdd(){
-
+WearsAdd(model,
+brand,
+image,
+devicecolor,
+price,
+product_details,
+resolution,
+storage,
+screensize,
+ram,
+id){
+  this.post.push(new wears(model.value,brand.value,
+  image.src,
+  devicecolor.value,price,product_details.value,
+  resolution.value,storage.value,screensize.value,ram.value,
+  id));
 }
 
 cartAdd(id){
   this.AddCart.push(this.post[id]);
+}
+removefromcart(id){
+  this.AddCart.splice(id,1);
 }
 }
