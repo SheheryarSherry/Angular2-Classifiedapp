@@ -9,7 +9,7 @@ export class PostingService {
   "Versions: H850 (Europe); LG G5 Speed H858 (Taiwan) VS987(Verizon); H820 (AT&T); LS992 (Sprint); H830 (T-Mobile); US992 (US Cellular); Vodafone Also known as LG G5 Dual H860N with dual-SIM card slots",
   "5.3 inches (~70.1% screen-to-body ratio)",
   "4 GB RAM",
-  "Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)"
+  "Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)",0
   ),
   new tablets(
     "",
@@ -21,7 +21,8 @@ export class PostingService {
     "",
     "",
     "",
-    ""
+    "",
+    1
   ),
 new TV(
   "",
@@ -32,7 +33,8 @@ new TV(
   "",
   "",
   "",
-  ""
+  "",
+  2
 ),
 new wears(
   "",
@@ -44,7 +46,7 @@ new wears(
   "",
   "",
   "",
-  ""
+  "",3
 )
 
   ];

@@ -6,12 +6,14 @@ export class Add {
     addedincart=false;
     product_details:string;
     price:number;
-    constructor(model:string,brand:string,image:string,devicecolor:string,price:number,product_details:string){
+    id:number;
+    constructor(model:string,brand:string,image:string,devicecolor:string,price:number,product_details:string,id:number){
         this.model=model;
         this.brand=brand;
         this.image=image;
         this.price=price;
         this.product_details=product_details;
+        this.id=id;
         
     }
 }
@@ -29,8 +31,9 @@ export class Phones extends Add{
     product_details:string,
     screen:string,
     ram:string,
-    processor:string){
-super(model,brand,image,devicecolor,price,product_details);
+    processor:string,
+    id){
+super(model,brand,image,devicecolor,price,product_details,id);
 this.processor=processor;
 this.ram=ram;
 this.screen=screen;
@@ -51,14 +54,16 @@ export class tablets extends Add{
     processor:string,
     internalmemory:string,
     screensize:string,
-    ram:string
+    ram:string,
+    id
     ){
         super(model,
 brand,
 image,
 devicecolor,
 price,
-product_details);
+product_details,
+id);
 this.processor=processor;
 this.internalmemory=internalmemory;
 this.screensize=screensize;
@@ -77,14 +82,16 @@ export class TV extends Add{
     product_details:string,
     resolution:string,
     quality:string,
-    screentype:string
+    screentype:string,
+    id
     ){
         super(model,
 brand,
 image,
 devicecolor,
 price,
-product_details);
+product_details,
+id);
 this.resolution=resolution;
 this.quality=quality;
 this.screentype=screentype;    
@@ -106,14 +113,16 @@ export class wears extends Add{
     resolution:string,
     storage:string,
     screensize:string,
-    ram:string
+    ram:string,
+    id
     ){
         super(model,
 brand,
 image,
 devicecolor,
 price,
-product_details);
+product_details,
+id);
 this.resolution=resolution;
 this.storage=storage;
 this.ram=ram;
