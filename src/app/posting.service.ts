@@ -57,7 +57,14 @@ getPost(){
 getCart(){
   return this.AddCart;
 }
-PhoneAdd(){
+PhoneAdd(model,brand,image,devicecolor,
+price,product_details,screen,ram,
+processor,id
+){
+  this.post.push(new Phones(model.value,
+  brand.value,image.src,devicecolor.value,
+  price,product_details.value,screen.value,ram.value,processor.value,id
+  ));
 
 }
 tabletAdd(){
@@ -70,7 +77,7 @@ WearsAdd(){
 
 }
 
-cartAdd(){
+cartAdd(id){
   this.AddCart.push(this.post[id]);
 }
 }
