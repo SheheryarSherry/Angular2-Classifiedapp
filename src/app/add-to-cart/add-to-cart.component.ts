@@ -11,8 +11,14 @@ export class AddToCartComponent implements OnInit {
   constructor(private service:PostingService) {
     this.post=this.service.getCart();
    }
+   deleteFromCart(id){
+     this.post[id].addedincart=false;
+     this.service.removefromcart(id);
+
+   }
 
   ngOnInit() {
+    (<HTMLTitleElement>document.getElementsByTagName("title")[0]).innerText="your cart";
   }
 
 }
